@@ -36,7 +36,7 @@ To achieve the rapid turn around of the project I decided to split the tasks int
 
 The framework of the machines was chosen to be 40mmx40mm with 8mm groove [aluminum strut](https://www.universal-robots.com/products/ur3-robot/) by RS. This strut would allow for fast assembly, I could cut it on a band saw as well as easily chamfer the edges to remove burrs. It was also very readily available and come in 8m lengths for next day delivery. The business also had an account with RS which allowed me to proceed with a build without a full CapEx approval. Additionally, as the strut would make the frame of the machine I would use the 8mm groove to install Plexiglas and provide a substructure to the unit, such as shelving for the control and embedded system. 
 
-<p align="center"><img src="assets/ally-strut.png" width="100%"></p>
+<p align="center"><img src="assets/ally-strut.png" width="50%"></p>
 
 ### Torque Unit
 
@@ -46,7 +46,7 @@ To enable the Brass and hose element to be assembled some manipulation of the pa
 
 The CV13 controller offered full control over the attached inline nut runner but crucially could be adapted to take a 24v input that would support an embedded system to control the unit to start, stop and provide an emergency stop facility.
 
-<p align="center"><img src="assets/cv13-controller.jpeg" width="100%"></p>
+<p align="center"><img src="assets/cv13-controller.jpeg" width="50%"></p>
 
 To enable automated control of the torque unit an adaption kit is required so that the I.O pinout can be accessed. The controller itself allows each pin to be configured. To start and stop the unit. 
 
@@ -64,7 +64,7 @@ A key element in the application of the Loctite glue was the quantity and the po
 
 Pneumatic options for dispensing Loctite glue was not viable due to the temperature gradient experienced within the facility across winter and summer (effected the viscosity of the Loctite) the as well as the variance seen on the pneumatic system airlines (also due to cold/hot weather as the line ran across an outside area). Additionally compressed air was in use throughout the facility and depending on consumption the line pressure could be sporadic. 
 
-With this in mind a [Loctite volumetric Compact Rotor Pump]{https://equipment.loctite.com/product/Compact-Rotor-Pump-Dispenser-4.0} was selected. The rotor pump was electric and was able to apply precision quantities of Loctite without concern for viscosity issues or pneumatic variances. A key benefit was that the volume flow could be closely controlled so when coupled with the torque drive I could achieve either a 50% or 75% or any value I required circumferential coverage - I just needed to ensure that timings were correct. As 8 machines were required 8 x off of these nits were needed which alone cost circa £34k of the £140k budget. A controller unit for each dispenser was also still required to manage the application.
+With this in mind a [Loctite volumetric Compact Rotor Pump](https://equipment.loctite.com/product/Compact-Rotor-Pump-Dispenser-4.0) was selected. The rotor pump was electric and was able to apply precision quantities of Loctite without concern for viscosity issues or pneumatic variances. A key benefit was that the volume flow could be closely controlled so when coupled with the torque drive I could achieve either a 50% or 75% or any value I required circumferential coverage - I just needed to ensure that timings were correct. As 8 machines were required 8 x off of these nits were needed which alone cost circa £34k of the £140k budget. A controller unit for each dispenser was also still required to manage the application.
 
 <p align="center"><img src="assets/loctite-dispenser.png" width="100%"></p> 
 
