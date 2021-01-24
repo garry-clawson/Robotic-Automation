@@ -9,7 +9,7 @@ The project was born from the need to improve the manufacturing output of a home
 
 Previous attempts to automate the full assembly had failed due to high costs across managing the automated machine, long periods of downtime due to part failure as well as not offering the flexibility required when changeovers or new orders were received. 
 
-I was asked to provide a solution to enable the manufacturing cell to increase their production rate of 55 units per hour to 110 units per hour, without any increase in staffing levels.
+I was asked to provide a solution to enable the manufacturing cell to increase their production rate of 55 units per hour to 110 units per hour, without any increase in staffing levels as well as providing a manufacturing cell with flexibility to either have 3/4/5 or 6 team members to enable day to day flexing of cell output.
 
 ## Ideation
 
@@ -17,9 +17,11 @@ The initial starting point of the project was to analyze the current processes t
 
 <p align="center"><img src="assets/hose-brass-assembly.png" width="100%"></p>
 
+Of the whole a build process this task (task 4) was identified as the most possible to be automated, due to its repetitive nature as well as being a key bottleneck with respects to downtime and equipment failure. Additionally, it was seen that if this process could be at least halved in terms of process time, then it would serve as a platform for future productivity benefits as other parts of the process were pulled up as future line balancing tasks were completed. 
 
+## Development
 
-## Project Outline
+So at this stage, the task was clear. Develop an automated system that will complete the hose to body assembly as well as the brass insert to body assembly. My initial thought was ot seek external help form automation manufacturers. However, upon receipt of specification their costs come back at circa £175k-250k per machine and a 4-6 month lead time. The cost was not supported by the savings and the lead time would not support the production program so the task was then to build solutions in house. I was given full use of the site maintenance team as well as a small tool room to achieve this task. I was given 8 weeks to complete all the design, development, build and implementation of these in house machines into the line, as well as ensure relevant CE criteria was achieved. 
 
 
 
