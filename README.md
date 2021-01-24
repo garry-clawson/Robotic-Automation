@@ -23,7 +23,7 @@ Of the whole a build process this task (task 4) was identified as the most possi
 
 So at this stage, the task was clear. Develop an automated system that will complete the hose to body assembly as well as the brass insert to body assembly. My initial thought was to seek external help form automation manufacturers. However, upon receipt of specification their costs come back at circa £175k-250k per machine and a 4-6 month lead time. The cost was not supported by the savings and the lead time would not support the production program so the task was then to build solutions in house. I was given full use of the site maintenance team as well as a small tool room to achieve this task. I was given 8 weeks to complete all the design, development, build and implementation of these in house machines into the line, as well as ensure relevant CE criteria was achieved. To achieve this I was given no more than £140k for the complete project - which required a full CapEx approval (2 weeks fast track). 
 
-## Design
+## Design and Build
 
 To achieve the rapid turn around of the project I decided to split the tasks into 2 separate items and automate the key functions. I would deeply a person to transition the work between the machines and manage the positioning of stock. Depending on requirements this aspect could be automated away using CoBots such as the UR3e from [Universal Robots](https://www.universal-robots.com/products/ur3-robot/). 
 
@@ -32,3 +32,23 @@ To achieve the rapid turn around of the project I decided to split the tasks int
 The framework of the machines was chosen to be 40mmx40mm with 8mm groove [aluminum strut](https://www.universal-robots.com/products/ur3-robot/) by RS. This strut would allow for fast assembly, I could cut it on a band saw as well as easily chamfer the edges to remove burrs. It was also very readily available and come in 8m lengths for next day delivery. The business also had an account with RS which allowed me to proceed with a build without a full CapEx approval. Additionally, as the strut would make the frame of the machine I would use the 8mm groove to install Plexiglas and provide a substructure to the unit, such as shelving for the control and embedded system. 
 
 <p align="center"><img src="assets/ally-strut.png" width="100%"></p>
+
+### Torque Unit
+
+To enable the Brass and hose element to be assembled some manipulation of the part was required. This manipulation had to allow for a tight torque tolerance to be achieved but also had to be quick and record torque readings so that retrospective quality checks could be completed. This torque unit would be in constant use with circa 110 uses per hour. This would be across a 3 shift pattern meaning that a robust choice was needed as well as rapid of the shelve spares (UK based for same day delivery) if required. Additionally, this element of the build was going to be the most costly part so needed to be right. Desoutter Tools were chosen for this task with the [CVI3 Controller](https://www.desouttertools.com/tools/2/electric-assembly-systems/21/cvi3-range/210/cvi3-controllers) and [EID INline Electric Nutrunners](https://www.desouttertools.com/tools/2/electric-assembly-systems/21/cvi3-range/214/eid-inline-electric-nutrunners) chosen for the task. These tools however would need to be adapted for the task at hand and will be used in a non conventional way. 
+
+#### CV13 Controller
+
+The CV13 controller offered full control over the attached inline nut runner but crucially could be adapted to take a 24v input that would support an embedded system to control the unit to start, stop and provide an emergency stop facility.
+
+<p align="center"><img src="assets/cv13-controller.jpeg" width="100%"></p>
+
+To enable automated control of the torque unit an adaption kit is required so that the I.O pinout can be accessed. The controller itself allows each pin to be configured. To start and stop the unit. 
+
+<p align="center"><img src="assets/cv13-controller-pinout.jpg" width="100%"></p>
+
+
+<p align="center"><img src="assets/inline-nutrunner.png" width="100%"></p>
+
+
+
