@@ -47,8 +47,19 @@ To enable automated control of the torque unit an adaption kit is required so th
 
 <p align="center"><img src="assets/cv13-controller-pinout.jpg" width="100%"></p>
 
+#### EID Electric Inline Torque Driver
+
+Although these tolls are designed to be hand held the machine was it was decided to place these units vertically and fasten them into position using a mounting place. The torque guns each had a high density spring in the end which was removed so that any vertical float was eradicated. This allowed the base of the gun to act as a floor and when the device rotated the screwed element could float free and be pulled down with the counterforce off of the spring pushing it off the nut drive element. 
 
 <p align="center"><img src="assets/inline-nutrunner.png" width="100%"></p>
 
+### Loctite Dispenser
 
+A key element in the application of the Loctite glue was the quantity and the position the Loctite was required to be. This was historically a manual task that was managed via eyesight and experience alone. Additionally, Loctite was one of the most expensive consumable items within the assembly so even a small continual above specification application (i.e. costed Bill of Material or BOM) resulted in a financial impact for the product line. 
+
+Pneumatic options for dispensing Loctite glue was not viable due to the temperature gradient experienced within the facility across winter and summer (effected the viscosity of the Loctite) the as well as the variance seen on the pneumatic system airlines (also due to cold/hot weather as the line ran across an outside area). Additionally compressed air was in use throughout the facility and depending on consumption the line pressure could be sporadic. 
+
+With this in mind a [Loctite volumetric Compact Rotor Pump]{https://equipment.loctite.com/product/Compact-Rotor-Pump-Dispenser-4.0} was selected. The rotor pump was electric and was able to apply precision quantities of Loctite without concern for viscosity issues or pneumatic variances. A key benefit was that the volume flow could be closely controlled so when coupled with the torque drive I could achieve either a 50% or 75% or any value I required circumferential coverage - I just needed to ensure that timings were correct. As 8 machines were required 8 x off of these nits were needed which alone cost circa £34k of the £140k budget. A controller unit for each dispenser was also still required to manage the application.
+
+<p align="center"><img src="assets/loctite-dispenser.png" width="100%"></p> 
 
