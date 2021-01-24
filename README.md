@@ -31,4 +31,4 @@ To achieve the rapid turn around of the project I decided to split the tasks int
 
 The framework of the machines was chosen to be 40mmx40mm with 8mm groove [aluminum strut]https://www.universal-robots.com/products/ur3-robot/ by RS. This strut would allow for fast assembly, I could cut it on a band saw as well as easily chamfer the edges to remove burrs. It was also very readily available and come in 8m lengths for next day delivery. The business also had an account with RS which allowed me to proceed with a build without a full CapEx approval. Additionally, as the strut would make the frame of the machine I would use the 8mm groove to install Plexiglas and provide a substructure to the unit, such as shelving for the control and embedded system. 
 
-<p align="center"><img src="assets/ally-strut.jpg" width="100%"></p>
+<p align="center"><img src="assets/ally-strut.png" width="100%"></p>
