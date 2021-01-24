@@ -1,6 +1,9 @@
 # Robotic Automation 
 This project is the culmination of work that took place over a 3 month period in mid 2017 to develop 8 x robotic automation machines to automate a highly skilled task that was a high cost, labour intensive, difficult to manage as well as tricky to ensure constant quality. 
 
+## Completed Machines After 3 Years Use
+It is customary to start by showing completed photos of the artefact's to show how the design developed. The machines I specified, designed and built are called Adam & Eve, mainly because one takes a male insert and one receives a male insert. Also, they were the first 2 of 8 built so it felt natural to give them these names. The machines below may look a little scruffy but they have been producing 1 part every 22 seconds for the last 3 years. They significantly improved the productivity of the manufacturing cell while allowing a dataum for further improvements to be made. They are modular in design so can be quickly updated with minimal fuss and all parts have been specified with open source software and next day standard spec parts to reduce the cost and risk as much as possible. 8 of these machines (4 of each type) were built at a cost of £140k in total which is around £80k less then a single machine was quited for form automation providers. 
+
 
 ## Project Outline
 The project was born from the need to improve the manufacturing output of a home Gas Regulator which required a highly skilled but intensive style of manufacturing. Components were difficult to implement within a fully automated framework due to their texture, size, orientation and supplier packing. Additionally, fully automated, even semi-automated machinery was prohibitively expensive while still allowing UK manufacturing. 
@@ -45,7 +48,7 @@ The CV13 controller offered full control over the attached inline nut runner but
 
 To enable automated control of the torque unit an adaption kit is required so that the I.O pinout can be accessed. The controller itself allows each pin to be configured. To start and stop the unit. 
 
-<p align="center"><img src="assets/cv13-controller-pinout.jpg" width="100%"></p>
+<p align="center"><img src="assets/cv13-controller-pinout.png" width="100%"></p>
 
 #### EID Electric Inline Torque Driver
 
