@@ -88,7 +88,7 @@ Within the design a complex element was how the parts were to be held. This requ
 
 <p align="center"><img src="assets/fixtures.png" width="100%"></p>
 
-#### Item Positioning
+### Component Positioning
 
 Positioning the component ready for torque application and fastening the component were two completely separate tasks. The hose which was being applied to the regulator body had a low concentric tolerance which meant that the general shape could not be relied upon to position exactly the same each time. This meant a guide had to be developed within the clamping system itself, then once near a position it could be secured. Additionally, the hose was susceptible to fracture if gripped too hard, also, if the hose slipped even a small amount there would be aesthetics damage which would render the product as scrap. 
 
@@ -96,9 +96,9 @@ With this in mind I chose the employ a V shaped clamp of my own design using [to
 
 <p align="center"><img src="assets/clamping.png" width="100%"></p>
 
-#### Part Positioning
+### Part Positioning
 
-The final piece of the development was ensuring that all parts could come together when required. This meant specifying suitable solenoid valves as well as suitable linear pnuematic guide that would provide a dead stop once the limit was reached. These guides would be heavily used so a robust and simple system was needed. The environment within the facility meant that dirt and grime could enter the guide so simple removal and cleaning was required with a rag at the end of the shift at most. 
+The final piece of the development was ensuring that all parts could come together when required. This meant specifying suitable solenoid valves as well as suitable linear pneumatic guide that would provide a dead stop once the limit was reached. These guides would be heavily used so a robust and simple system was needed. The environment within the facility meant that dirt and grime could enter the guide so simple removal and cleaning was required with a rag at the end of the shift at most. 
 
 To this end SMC were chosen as providers of [solenoid valve with SMC connector lead](https://uk.rs-online.com/web/p/pneumatic-solenoid-pilot-operated-control-valves/3886835/) as SMC have a great reputation as well as next day delivery with many providers. When specifying a Solenoid it is required to know the G port connection to connect the diameter pneumatic tube into (I used 6mm low pressure tubing throughout the machine and connected with a 1/8th inch G port valve), the trigger voltage. 24V dc was used throughout the machine and also the port options such as 5/2 or 3/2. This just means that you can have 3 ports and 2 positions or 5 ports and 2 positions or have a spring return etc. My application required a 5/2 configuration. 
 
@@ -107,3 +107,11 @@ To this end SMC were chosen as providers of [solenoid valve with SMC connector l
 The guide way required further review as these needed to have a dead stop action so length was a critical element. The unit needed to ensure that it didn't hang off the end of the machine but also required enough travel to remove itself form the assembly area so that an operator could reach in and remove a product without clashing any components. This guide also required to have the Loctite glue dispenser positioned on top of it so that it could be directed directly to the thread of the hose and brass insert. The unit chosen was the SMC Slide unit actuator which provided suitable drill patterns so that it could be attached directly to the table top as well as have attachments upon the top of the unit. It come in a range of strokes and was easy to adjust. It also had an dead stop upon reaching its stroke limit. 
 
 <p align="center"><img src="assets/slide-unit.png" width="50%"></p>
+
+### Final Machine Build
+
+The final machine build required around 2 weeks with 1 person. There were 2 separate machines that worked in a pair with a total of 8 machines overall. These were implemented into 4 x manufacturing cells. The overall project started off as a long shot on a process that had seen many improvements few step changes. As the business started to look at technology around automation and how it could be combined within the process it started to realize the potential of combining human ideas with automated processes to free up people to do the interesting work. 
+
+I learned several important lessons during the development and build of these machines but non more so than to keep a system as simple as possible. there were many suggestions of how to improve the operation of these machines but each one required a level of complexity that would have needed significant extra support or increased downtime if a problem was to arise. Also, the benefit of modularization when thinking through developing automation equipment like this. Allowing these machines to be be taken apart section by section and have elements quickly replaced allowed others to engage in the processes they needed to only learn the machines bit by bit. Finally, having a broad set of skills and awareness also helped me navigate pitfalls around introducing complicated features. Having an understanding of what it takes to fabricate a part via milling, lathe turning or grinding as well as general part assembly meant that suitable materials were chosen at the outset meaning that the machines had a longer life spa than planned. I am glad to say all 8 x machines are in operation today more than 3 years after they were built.
+
+<p align="center"><img src="assets/final-build.png" width="50%"></p>
