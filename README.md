@@ -1,4 +1,4 @@
-# Assembly Automation
+# Automation Machines
 This project is the culmination of work that took place over a 3 month period in mid 2017 to develop 8 x robotic automation machines to automate a highly skilled task (Gas regulator hose and brass insert assembly) that was a high cost, labour intensive, difficult to manage as well as tricky to ensure constant quality. 
 
 ## Completed Machines x 8 Off (2 of each type)
