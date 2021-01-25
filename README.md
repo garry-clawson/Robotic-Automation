@@ -32,12 +32,6 @@ So at this stage, the task was clear. Develop an automated system that will comp
 
 To achieve the rapid turn around of the project I decided to split the tasks into 2 separate items and automate the key functions. I would deeply a person to transition the work between the machines and manage the positioning of stock. Depending on requirements this aspect could be automated away using CoBots such as the UR3e from [Universal Robots](https://www.universal-robots.com/products/ur3-robot/). 
 
-### Framework
-
-The framework of the machines was chosen to be 40mmx40mm with 8mm groove [aluminum strut](https://www.universal-robots.com/products/ur3-robot/) by RS. This strut would allow for fast assembly, I could cut it on a band saw as well as easily chamfer the edges to remove burrs. It was also very readily available and come in 8m lengths for next day delivery. The business also had an account with RS which allowed me to proceed with a build without a full CapEx approval. Additionally, as the strut would make the frame of the machine I would use the 8mm groove to install Plexiglas and provide a substructure to the unit, such as shelving for the control and embedded system. 
-
-<p align="center"><img src="assets/ally-strut.png" width="50%"></p>
-
 ### Torque Unit
 
 To enable the Brass and hose element to be assembled some manipulation of the part was required. This manipulation had to allow for a tight torque tolerance to be achieved but also had to be quick and record torque readings so that retrospective quality checks could be completed. This torque unit would be in constant use with circa 110 uses per hour. This would be across a 3 shift pattern meaning that a robust choice was needed as well as rapid of the shelve spares (UK based for same day delivery) if required. Additionally, this element of the build was going to be the most costly part so needed to be right. Desoutter Tools were chosen for this task with the [CVI3 Controller](https://www.desouttertools.com/tools/2/electric-assembly-systems/21/cvi3-range/210/cvi3-controllers) and [EID INline Electric Nutrunners](https://www.desouttertools.com/tools/2/electric-assembly-systems/21/cvi3-range/214/eid-inline-electric-nutrunners) chosen for the task. These tools however would need to be adapted for the task at hand and will be used in a non conventional way. 
@@ -74,7 +68,7 @@ The torque unit and Loctite dispensers worked well independently but required a 
 
 With this in mind a RS branded [Pro Logic PLC](https://uk.rs-online.com/web/p/plcs-programmable-logic-controllers/9176370/) was chosen. This was readily available, cheap and had a next day lead time. It was also modular and very easy to program. 
 
-<p align="center"><img src="assets/pro-logic-module.png" width="100%"></p>
+<p align="center"><img src="assets/pro-logic-module.png" width="50%"></p>
 
 This may seem a trivial choice but within the business this was one of the first automation machines. This meant that whatever was chosen here was something that would then be developed up in and replicated across the site. This meant that this choice needed to be right not just for toady but for 10-15 years in the future. Too often do manufacturing sites have to keep old Windows 7 versions operating just for a single piece of software critical. We needed to avoid this. 
 
@@ -82,3 +76,14 @@ The Pro Logic Module was programmed using ladder Logic with the [Design Spark so
 
 <p align="center"><img src="assets/ladder-logic.jpg" width="100%"></p>
 
+### Framework
+
+The framework of the machines was chosen to be 40mmx40mm with 8mm groove [aluminum strut](https://www.universal-robots.com/products/ur3-robot/) by RS. This strut would allow for fast assembly, I could cut it on a band saw as well as easily chamfer the edges to remove burrs. It was also very readily available and come in 8m lengths for next day delivery. The business also had an account with RS which allowed me to proceed with a build without a full CapEx approval. Additionally, as the strut would make the frame of the machine I would use the 8mm groove to install Plexiglas and provide a substructure to the unit, such as shelving for the control and embedded system. 
+
+<p align="center"><img src="assets/ally-strut.png" width="50%"></p>
+
+### Jigs and Fixtures
+
+Within the design a complex element was how the parts were to be held. This required special thinking around where the loads were applied and how the torque could be achieved without damaging the body of the products. 60Nm torque was required on the hose element alone and although that may not sound much it requires an average size male to lean heavily into a manual torque wrench to achieve this level of tightness - 60Nm is quite a force to have to apply. Any fixtures would need to with stand this time over time without deformation. This required a heavy top plate to be used as a surface for all the clamping to be attached too. This plate was 12mm thick steel which weighed around 30kg. The benefit of this top plate was that it could be machined and drill and tapped to provide a robust fixturing points as well as provide some needed weight to the aluminum frame to stop the impact force when running a torque gun at full speed to 60Nm then having an immediate stop. 
+
+<p align="center"><img src="assets/fixtures.png" width="100%"></p>
