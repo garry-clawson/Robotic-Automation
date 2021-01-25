@@ -1,7 +1,7 @@
-# Robotic Automation 
+# Assembly Automation
 This project is the culmination of work that took place over a 3 month period in mid 2017 to develop 8 x robotic automation machines to automate a highly skilled task (Gas regulator hose and brass insert assembly) that was a high cost, labour intensive, difficult to manage as well as tricky to ensure constant quality. 
 
-## Completed Machines
+## Completed Machines x 8 Off (2 of each type)
 It is customary to start by showing completed photos of the artefact's to show how the design developed. The machines I specified, designed and built are called Adam & Eve, mainly because one takes a male insert and one receives a male insert. Also, they were the first 2 of 8 built so it felt natural to give them these names. The machines below may look a little scruffy but they have been producing 1 part every 22 seconds for the last 3 years. They significantly improved the productivity of the manufacturing cell while allowing a dataum for further improvements to be made. They are modular in design so can be quickly updated with minimal fuss and all parts have been specified with open source software and next day standard spec parts to reduce the cost and risk as much as possible. 8 of these machines (4 of each type) were built at a cost of £140k in total which is around £80k less then a single machine was quoted for from automation providers. 
 
 <p align="center"><img src="assets/AdamAndEve.jpg" width="100%"></p>
